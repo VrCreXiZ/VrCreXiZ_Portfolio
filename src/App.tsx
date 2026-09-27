@@ -1019,6 +1019,12 @@ export default function App() {
     role: "SOFTWARE ENGINEER - DATA ANALYST",
     experience: [
       {
+        company: "Pfizer Inc.",
+        position: "Artificial Intelligence/Data Analytics and Reporting Intern",
+        period: "2026 - 2026",
+        description: "Replaced manual estimations with an XGBoost predictive model and an interactive React dashboard to optimize the allocation of thousands of FTE hours for Pfizer's executive staffing decisions."
+      },
+      {
         company: "Tech4Youth: The Dominican Computer Society",
         position: "Vice President - Internal Affairs",
         period: "2021 - 2022",
@@ -1040,6 +1046,12 @@ export default function App() {
         company: "DLSU-D College of Information and Computer Studies Student Government",
         position: "Technical and Documentation Committee Member",
         period: "2023 - 2025",
+        description: "Assisted in facilitating photographic documentation on university-wide events, capturing important moments and highlights of events Oversaw photographic documentation, execution, and post-event editing of images for multiple campus-wide events."
+      },
+      {
+        company: "DLSU-D College Science Program Council",
+        position: "Technical and Documentation Committee Member",
+        period: "2025 - Present",
         description: "Assisted in facilitating photographic documentation on university-wide events, capturing important moments and highlights of events Oversaw photographic documentation, execution, and post-event editing of images for multiple campus-wide events."
       }
     ],
@@ -1072,42 +1084,42 @@ export default function App() {
       }
     ],
     projects: [
+        {
+        title: "Wago",
+        tag: "LegalTech",
+        description: "A mobile-first legal technology platform engineered to map everyday factual scenarios to corresponding Philippine legal codes. The system leverages natural language processing and a custom RAG pipeline to extract contextual triggers from user inputs, bypassing standard AI hallucinations to deliver precise statutory references and Supreme Court jurisprudence.",
+        tech: ["Next.js 15", "HeroUI v3", "OpenCode LLM Gateway", "Docker"],
+        year: "2026",
+        sourceUrl: "https://github.com/carloooseee/cavite-agri-watch",
+        liveUrl: "https://github.com/carloooseee/cavite-agri-watch"
+      },
       {
-        title: "AetherConsensus",
-        tag: "DISTRIBUTED SYSTEMS",
-        description: "Autonomous high-performance key-value database built in Rust. Leverages a custom implementation of the Raft consensus protocol and an active WAL disk storage layer to manage cluster synchronization in partition heavy scenarios.",
+        title: "Cavite Agri-Watch",
+        tag: "Environmental Monitoring",
+        description: "Cavite Agri-Watch is a localized, real-time platform designed to monitor crop stress across Cavite, Philippines. It utilizes Google Earth Engine (GEE) satellite imagery (Sentinel-2) and Machine Learning (Random Forest) to provide a 30-day early warning of agricultural stress.",
         tech: ["Rust", "gRPC", "Protobuf", "Docker"],
+        year: "2026",
+        sourceUrl: "https://github.com/carloooseee/cavite-agri-watch",
+        liveUrl: "https://github.com/carloooseee/cavite-agri-watch"
+      },
+      {
+        title: "Lifeline",
+        tag: "Emergency Response PWA",
+        description: "A Progressive Web App (PWA) for community-based emergency reporting. Supports offline reports via Dexie, online sync with Firebase, voting system, and guest/user logging.",
+        tech: ["Dexie.js", "Firebase", "Bootstrap", "React + Vite"],
+        year: "2025",
+        sourceUrl: "https://github.com/carloooseee/Lifeline",
+        liveUrl: "https://carloooseee.github.io/Lifeline/"
+      },
+      {
+        title: "Servease",
+        tag: "Service Marketplace",
+        description: "This project consists of a React frontend (Client) and a Node.js backend (Server). It uses Vite for the frontend and Express with Sequelize for the backend.",
+        tech: ["Node.js", "TypeScript", "HTML", "CSS", "SQL"],
         year: "2024",
-        sourceUrl: "https://github.com/lorenz/aether-consensus",
-        liveUrl: "https://aether-consensus.dev"
+        sourceUrl: "https://github.com/VrCreXiZ/Servease",
+        liveUrl: "https://github.com/VrCreXiZ/Servease"
       },
-      {
-        title: "Hyperion Cloud Orchestrator",
-        tag: "PLATFORM ORCHESTRATION",
-        description: "Dynamic visual microservice orchestration dashboard. Hooks directly into Kubernetes APIs via Go hooks to generate sub-millisecond network activity telemetry, node scaling visualizer, and custom cluster threshold triggers.",
-        tech: ["Go", "React.js", "K8s", "Tailwind CSS"],
-        year: "2023",
-        sourceUrl: "https://github.com/lorenz/hyperion-orchestration",
-        liveUrl: "https://hyperion.cloud"
-      },
-      {
-        title: "Synthetica Engine",
-        tag: "MOCK GENERATION",
-        description: "Declarative server-side mocking engine designed to dynamically assemble, map, and output complex nested JSON relational data. Supports direct schema parsing and exposes real-time hot-reloading mock endpoints.",
-        tech: ["Node.js", "TypeScript", "Express", "MongoDB"],
-        year: "2023",
-        sourceUrl: "https://github.com/lorenz/synthetica-engine",
-        liveUrl: "https://synthetica.dev"
-      },
-      {
-        title: "Prism GPU Renderer",
-        tag: "GRAPHICS ENGINEERING",
-        description: "Highly performant web-based Ray Tracing compiler mapping light paths in real-time onto an interactive 3D grid, achieving 60 FPS utilizing native canvas WebGL shaders and optimized vertex structures.",
-        tech: ["JavaScript", "WebGL", "HTML5", "CSS3"],
-        year: "2022",
-        sourceUrl: "https://github.com/lorenz/prism-gpu",
-        liveUrl: "https://prism-grapher.dev"
-      }
     ]
   };
 
@@ -1397,7 +1409,7 @@ export default function App() {
         <section id="experience" className="space-y-24 pt-32 scroll-mt-32">
           <div className="space-y-4">
             <h2 className="text-xs font-mono tracking-[0.5em] text-blue-500 font-bold uppercase underline underline-offset-8">Exp. Log</h2>
-            <div className="text-5xl md:text-8xl font-bold tracking-tighter text-black dark:text-white select-none transition-opacity">PREVIOUS_STACKS</div>
+            <div className="text-5xl md:text-8xl font-bold tracking-tighter text-black dark:text-white select-none transition-opacity">EXPERIENCE</div>
           </div>
 
           <div className="grid grid-cols-1 gap-32">
