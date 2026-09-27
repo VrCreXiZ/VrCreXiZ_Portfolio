@@ -14,8 +14,8 @@
 ## 🚀 Live Demo & Preview
 
 - **Live Site**: [Visit Portfolio](https://ais-pre-d5aza6f3z3wpewksdbx6km-443967276602.asia-southeast1.run.app)
-- **Author**: [Lorenz Liu Leovonchiong](https://github.com/lorenzliu09124)
-- **Contact**: `lorenzliu09124@gmail.com`
+- **Author**: [Lorenz Liu Leovonchiong](https://github.com/VrCreXiZ)
+- **Contact**: `lorenzliuleovonchiong@gmail.com`
 
 ---
 
