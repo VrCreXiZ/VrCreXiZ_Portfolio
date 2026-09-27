@@ -13,7 +13,7 @@
 
 ## 🚀 Live Demo & Preview
 
-- **Live Site**: [Visit Portfolio](https://ais-pre-d5aza6f3z3wpewksdbx6km-443967276602.asia-southeast1.run.app)
+- **Live Site**: [Visit Portfolio](https://portfolio-test-665760ofb-vexizs-projects.vercel.app)
 - **Author**: [Lorenz Liu Leovonchiong](https://github.com/VrCreXiZ)
 - **Contact**: `lorenzliuleovonchiong@gmail.com`
 
